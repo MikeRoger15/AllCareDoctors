@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/syedshah/Desktop/AllCareDoctorsO/WebApplication1/AllCareDoctors/AllCareDoctors.csproj": {}
+    "/Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/AllCareDoctors.csproj": {}
   },
   "projects": {
-    "/Users/syedshah/Desktop/AllCareDoctorsO/WebApplication1/AllCareDoctors/AllCareDoctors.csproj": {
+    "/Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/AllCareDoctors.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/syedshah/Desktop/AllCareDoctorsO/WebApplication1/AllCareDoctors/AllCareDoctors.csproj",
+        "projectUniqueName": "/Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/AllCareDoctors.csproj",
         "projectName": "AllCareDoctors",
-        "projectPath": "/Users/syedshah/Desktop/AllCareDoctorsO/WebApplication1/AllCareDoctors/AllCareDoctors.csproj",
+        "projectPath": "/Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/AllCareDoctors.csproj",
         "packagesPath": "/Users/syedshah/.nuget/packages/",
-        "outputPath": "/Users/syedshah/Desktop/AllCareDoctorsO/WebApplication1/AllCareDoctors/obj/",
+        "outputPath": "/Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/syedshah/.nuget/NuGet/NuGet.Config"
@@ -45,6 +45,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -57,6 +61,14 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -64,6 +76,14 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.3.0, )"
             }
           },
           "imports": [
