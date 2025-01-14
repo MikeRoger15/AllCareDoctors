@@ -8,7 +8,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b65ae8ec-9e60-49ac-82fe-7f4039cbb5ba" name="Changes" comment="" />
+    <list default="true" id="b65ae8ec-9e60-49ac-82fe-7f4039cbb5ba" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.staticwebassets.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/AllCareDoctors.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/AllCareDoctors.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/AllCareDoctors.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/AllCareDoctors.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/ref/AllCareDoctors.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/ref/AllCareDoctors.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/refint/AllCareDoctors.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/refint/AllCareDoctors.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.build.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets/msbuild.AllCareDoctors.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets/msbuild.AllCareDoctors.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +47,9 @@
   </component>
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -25,18 +59,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.AllCareDoctors: http.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.AllCareDoctors: http.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "MikeRoger15",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.AllCareDoctors: http">
     <configuration name="AllCareDoctors: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/AllCareDoctors/AllCareDoctors.csproj" />
@@ -107,6 +149,8 @@
       <updated>1736870903123</updated>
       <workItem from="1736870904344" duration="925000" />
       <workItem from="1736871942797" duration="4000" />
+      <workItem from="1736874080377" duration="56000" />
+      <workItem from="1736874150416" duration="1904000" />
     </task>
     <servers />
   </component>

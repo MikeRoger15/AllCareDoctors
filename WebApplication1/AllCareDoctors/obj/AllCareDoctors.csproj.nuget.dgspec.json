@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/Users/syedshah/Desktop/AllCareDoctorsO/WebApplication1/AllCareDoctors/AllCareDoctors.csproj": {}
+    "/Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/AllCareDoctors.csproj": {}
   },
   "projects": {
-    "/Users/syedshah/Desktop/AllCareDoctorsO/WebApplication1/AllCareDoctors/AllCareDoctors.csproj": {
+    "/Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/AllCareDoctors.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/syedshah/Desktop/AllCareDoctorsO/WebApplication1/AllCareDoctors/AllCareDoctors.csproj",
+        "projectUniqueName": "/Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/AllCareDoctors.csproj",
         "projectName": "AllCareDoctors",
-        "projectPath": "/Users/syedshah/Desktop/AllCareDoctorsO/WebApplication1/AllCareDoctors/AllCareDoctors.csproj",
-        "packagesPath": "/Users/syedshah/.nuget/packages/",
-        "outputPath": "/Users/syedshah/Desktop/AllCareDoctorsO/WebApplication1/AllCareDoctors/obj/",
+        "projectPath": "/Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/AllCareDoctors.csproj",
+        "packagesPath": "/Users/muneebmastan/.nuget/packages/",
+        "outputPath": "/Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/syedshah/.nuget/NuGet/NuGet.Config"
+          "/Users/muneebmastan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
