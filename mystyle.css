@@ -1,0 +1,17 @@
+body { 
+    font-family: Arial, sans-serif; 
+} 
+ 
+.text-box { 
+    border: 2px solid #ccc; /* Border around the text box */ 
+    padding: 10px; /* Space inside the box */ 
+    margin: 20px; /* Space outside the box */ 
+    border-radius: 5px; /* Rounded corners */ 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */ 
+    max-width: 200px; /* Maximum width of the text box */ 
+} 
+ 
+.image { 
+    width: 100%; /* Image takes the full width of the text box */ 
+    height: 50%; 
+} 
