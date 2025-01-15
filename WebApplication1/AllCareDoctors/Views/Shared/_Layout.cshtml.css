@@ -6,7 +6,13 @@ a.navbar-brand {
   text-align: center;
   word-break: break-all;
 }
-
+.header-logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border:2px solid black;
+  padding: 1px;
+}
 a {
   color: #0077cc;
 }
@@ -58,6 +64,7 @@ html, body {
   flex-direction: column;
 }
 
+<!-- FOOTER -->
 
 footer {
   background-color: #f4f4f4;

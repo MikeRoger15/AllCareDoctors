@@ -10,12 +10,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-AllCareDoctors-8ea71ce4-e213-49cb-a69c-3cc86337daed")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AllCareDoctors")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed34e192a9a438277d41b21098fa22cd17db870c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34d61723760b891897f6b08f4ebe9fef75649f60")]
 [assembly: System.Reflection.AssemblyProductAttribute("AllCareDoctors")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AllCareDoctors")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

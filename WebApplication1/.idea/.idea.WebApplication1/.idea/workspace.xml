@@ -9,6 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b65ae8ec-9e60-49ac-82fe-7f4039cbb5ba" name="Changes" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
+=======
       <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.staticwebassets.runtime 2.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Azure.Core.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Azure.Identity.dll" afterDir="false" />
@@ -134,6 +138,7 @@
       <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/rider.project.restore.info" afterDir="false" />
+>>>>>>> origin/main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +152,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
+    <setting file="file://$PROJECT_DIR$/AllCareDoctors/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/891699de19e6c73f3c7b41f0b0fecdecd0f8ffa82b6f6516937126e8a37313e/AnchorTagHelper.cs" root0="FORCE_HIGHLIGHTING" />
+=======
     <setting file="mock:///Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/obj/AllCareDoctors.csproj.nuget.dgspec.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/obj/AllCareDoctors.csproj.nuget.dgspec.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
@@ -155,6 +164,7 @@
     <setting file="mock:///Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.sourcelink.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> origin/main
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -164,6 +174,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.AllCareDoctors: http.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Kevin&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+=======
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Launch Settings Profile.AllCareDoctors: http.executor": "Run",
@@ -181,6 +210,7 @@
   "keyToStringList": {
     "DatabaseDriversLRU": [
       "postgresql"
+>>>>>>> origin/main
     ]
   }
 }]]></component>
@@ -254,8 +284,14 @@
       <updated>1736870903123</updated>
       <workItem from="1736870904344" duration="925000" />
       <workItem from="1736871942797" duration="4000" />
+<<<<<<< HEAD
+      <workItem from="1736874435444" duration="4334000" />
+      <workItem from="1736957300767" duration="472000" />
+      <workItem from="1736958005551" duration="4479000" />
+=======
       <workItem from="1736874080377" duration="56000" />
       <workItem from="1736874150416" duration="2758000" />
+>>>>>>> origin/main
     </task>
     <servers />
   </component>

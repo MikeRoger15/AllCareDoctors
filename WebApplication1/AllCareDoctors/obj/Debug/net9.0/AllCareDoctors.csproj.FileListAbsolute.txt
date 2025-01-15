@@ -755,7 +755,6 @@
 /Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/compressed/v0zgfp0y55-87fc7y1x7t.gz
 /Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/compressed/yfc7ypekbg-mlv21k5csn.gz
 /Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/compressed/vnwo2zi2hm-lugek5hnai.gz
-/Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/compressed/q035weom48-61n19gt1b8.gz
 /Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/compressed/vtvcohlsjr-fr7q2aak1r.gz
 /Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/compressed/e32wzqk69s-bqjiyaj88i.gz
 /Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/compressed/naqq74htil-c2jlpeoesf.gz
@@ -816,8 +815,6 @@
 /Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/compressed/v72aw0ep2a-muycvpuwrr.gz
 /Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/compressed/yt7a5jsora-87fc7y1x7t.gz
 /Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/compressed/dq3zbxw0wf-jfsiqqwiad.gz
-/Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/compressed/ip71tighr6-hx9b51ah0j.gz
-/Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/compressed/5kufcoz9ia-hx9b51ah0j.gz
 /Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/staticwebassets.build.json
 /Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/staticwebassets.development.json
 /Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -871,3 +868,5 @@
 /Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
 /Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/compressed/ip71tighr6-iydzgn5cor.gz
+/Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/compressed/5kufcoz9ia-iydzgn5cor.gz

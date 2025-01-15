@@ -2,15 +2,15 @@
   "Files": [
     {
       "Id": "/Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/scopedcss/projectbundle/AllCareDoctors.bundle.scp.css",
-      "PackagePath": "staticwebassets/AllCareDoctors.hx9b51ah0j.bundle.scp.css"
+      "PackagePath": "staticwebassets/AllCareDoctors.iydzgn5cor.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/wwwroot/Titlelogo.png",
+      "PackagePath": "staticwebassets/Titlelogo.png"
     },
     {
       "Id": "/Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
-    },
-    {
-      "Id": "/Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
     },
     {
       "Id": "/Users/syedshah/Desktop/AllCareDoctors/WebApplication1/AllCareDoctors/wwwroot/js/site.js",

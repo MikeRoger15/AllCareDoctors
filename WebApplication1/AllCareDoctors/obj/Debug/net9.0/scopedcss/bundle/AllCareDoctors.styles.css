@@ -7,7 +7,13 @@ a.navbar-brand[b-p1jqpfbkuh] {
   text-align: center;
   word-break: break-all;
 }
-
+.header-logo[b-p1jqpfbkuh]{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border:2px solid black;
+  padding: 1px;
+}
 a[b-p1jqpfbkuh] {
   color: #0077cc;
 }
@@ -59,6 +65,7 @@ html[b-p1jqpfbkuh], body[b-p1jqpfbkuh] {
   flex-direction: column;
 }
 
+<!-- FOOTER -->
 
 footer[b-p1jqpfbkuh] {
   background-color: #f4f4f4;
