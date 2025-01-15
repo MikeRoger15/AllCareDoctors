@@ -8,7 +8,133 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b65ae8ec-9e60-49ac-82fe-7f4039cbb5ba" name="Changes" comment="" />
+    <list default="true" id="b65ae8ec-9e60-49ac-82fe-7f4039cbb5ba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.staticwebassets.runtime 2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Azure.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Azure.Identity.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/Npgsql.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/System.ClientModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/System.Memory.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/linux-arm/native/libe_sqlite3 2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/linux-mips64/native/libe_sqlite3 2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/linux-musl-arm64/native/libe_sqlite3 2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/linux-musl-x64/native/libe_sqlite3 2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/linux-ppc64le/native/libe_sqlite3 2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/linux-x64/native/libe_sqlite3 2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/maccatalyst-arm64/native/libe_sqlite3 2.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/maccatalyst-x64/native/libe_sqlite3 2.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/osx-arm64/native/libe_sqlite3 2.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/win-arm64/native/e_sqlite3 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/win-x86/native/e_sqlite3 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources 2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/compressed/5kufcoz9ia-hx9b51ah0j.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/compressed/ip71tighr6-hx9b51ah0j.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/AllCareDoctors.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/AllCareDoctors.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/Views/Shared/_Layout.cshtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/Views/Shared/_Layout.cshtml.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.staticwebassets.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/AllCareDoctors.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/bin/Debug/net9.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/AllCareDoctors.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/AllCareDoctors.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/AllCareDoctors.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/AllCareDoctors.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/ref/AllCareDoctors.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/ref/AllCareDoctors.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/refint/AllCareDoctors.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/refint/AllCareDoctors.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/scopedcss/bundle/AllCareDoctors.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/scopedcss/bundle/AllCareDoctors.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/scopedcss/projectbundle/AllCareDoctors.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/scopedcss/projectbundle/AllCareDoctors.bundle.scp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.build.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets/msbuild.AllCareDoctors.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets/msbuild.AllCareDoctors.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets/msbuild.AllCareDoctors.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/Debug/net9.0/staticwebassets/msbuild.AllCareDoctors.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCareDoctors/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AllCareDoctors/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +142,19 @@
   </component>
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/obj/AllCareDoctors.csproj.nuget.dgspec.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/obj/AllCareDoctors.csproj.nuget.dgspec.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.sourcelink.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/obj/Debug/net9.0/AllCareDoctors.sourcelink.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/muneebmastan/AllCareDoctors/WebApplication1/AllCareDoctors/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -25,18 +164,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.AllCareDoctors: http.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.AllCareDoctors: http.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Merging MikeRoger15",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.AllCareDoctors: http">
     <configuration name="AllCareDoctors: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/AllCareDoctors/AllCareDoctors.csproj" />
@@ -107,6 +254,8 @@
       <updated>1736870903123</updated>
       <workItem from="1736870904344" duration="925000" />
       <workItem from="1736871942797" duration="4000" />
+      <workItem from="1736874080377" duration="56000" />
+      <workItem from="1736874150416" duration="2758000" />
     </task>
     <servers />
   </component>
