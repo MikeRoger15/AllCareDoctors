@@ -70,8 +70,8 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  text-align: left;
-  gap: 20px;
+  text-align: center;
+  gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
 }
