@@ -45,6 +45,20 @@ body {
   overflow: hidden;
 }
 
+.container-lower {
+  margin-top: 15px;
+  border: 6px solid #0046ad;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 34vh;
+  overflow: hidden;
+}
+
+
+
 .content {
   color: #fff;
   padding: 2rem;
