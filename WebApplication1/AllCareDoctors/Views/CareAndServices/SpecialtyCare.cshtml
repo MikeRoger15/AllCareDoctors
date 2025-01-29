@@ -1,0 +1,82 @@
+@model List<Tuple<string, string>>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <title>Specialty Care</title>
+    <link rel="stylesheet" href="css/CareAndServices.css"/>
+</head>
+
+<body>
+
+<section class="image-container">
+    <img class="primary-care-top" src="~/images/DocIMG/specialtycare.jpg" alt="">
+    <h1 class="header-name">Specialty Care</h1>
+</section>
+<section>
+    <p class="intro">
+        In addition to primary care, AdvantageCare Physicians offices<br/>
+        provide access to a wide range of specialty care, either from our<br/>
+        own providers, in-network providers, or through trusted<br/>
+        collaborators. When your care requires attention from a specialist,<br/>
+        your Primary Care Provider can easily refer you to a Specialty Provider.
+    </p>
+</section>
+
+
+<section class="blocks">
+    <a href="/Cardiology" class="block-link">
+        <div class="block-wrapper">
+            <img class="doc-image" src="~/images/DocIMG/Cardiology.jpg" alt="">
+            <h1 class="header-name2">Cardiology</h1>
+            <h3 class="blocks-info">Specialized heart care.</h3>
+        </div>
+    </a>
+
+    <a href="/Dermatology" class="block-link">
+        <div class="block-wrapper">
+            <img class="doc-image" src="~/images/DocIMG/Dermatology.jpg" alt="">
+            <h1 class="header-name2">Dermatology</h1>
+            <h3 class="blocks-info">Skin health and treatments.</h3>
+        </div>
+    </a>
+
+    <a href="/Endocrinology" class="block-link">
+        <div class="block-wrapper">
+            <img class="doc-image" src="~/images/DocIMG/Endocrinology.jpg" alt="">
+            <h1 class="header-name2">Endocrinology</h1>
+            <h3 class="blocks-info">Hormonal and glandular care.</h3>
+        </div>
+    </a>
+
+    <a href="/Nutrition" class="block-link">
+        <div class="block-wrapper">
+            <img class="doc-image" src="~/images/DocIMG/Nutrition.jpg" alt="">
+            <h1 class="header-name2">Nutrition</h1>
+            <h3 class="blocks-info">Diet and wellness guidance.</h3>
+        </div>
+    </a>
+
+    <a href="/Podiatry" class="block-link">
+        <div class="block-wrapper">
+            <img class="doc-image" src="~/images/DocIMG/Podiatry.jpg" alt="">
+            <h1 class="header-name2">Podiatry</h1>
+            <h3 class="blocks-info">Foot and ankle care.</h3>
+        </div>
+    </a>
+
+    <a href="/Behavioral-Health" class="block-link">
+        <div class="block-wrapper">
+            <img class="doc-image" src="~/images/DocIMG/Behavioral.jpg" alt="">
+            <h1 class="header-name2">Behavioral Health</h1>
+            <h3 class="blocks-info">Mental health and counseling.</h3>
+        </div>
+    </a>
+</section>
+
+</body>
+</html>

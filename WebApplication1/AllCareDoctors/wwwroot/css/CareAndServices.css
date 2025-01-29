@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif; /* Set the font style for the entire webpage */
+    padding: 0; /* Remove default padding around the body */
+    margin: 0; /* Remove default margin around the body */
+    background-color: white; /* Set the background color to white */
+}
+
+img.primary-care-top {
+    border: 3px solid black; /* Add a black border around the image */
+    position: relative; /* Allow positioning relative to its parent container */
+    display: block; /* Make the image a block-level element */
+    padding: 0; /* Remove any padding around the image */
+    height: 400px; /* Set the height of the image to 400px */
+    width: 100%; /* Make the image span the full width of its container */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7); /* Add a shadow effect for a 3D look */
+}
+
+.header-name {
+    position: absolute; /* Position the element absolutely within its parent */
+    top: 20%; /* Place it 20% from the top of the parent container */
+    left: 50%; /* Center it horizontally within the parent container */
+    transform: translate(-50%, -50%); /* Ensure perfect centering */
+    color: white; /* Set text color to white for better contrast */
+    font-size: 5em; /* Set font size to 2em */
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.7); /* Add a shadow to the text for readability */
+}
+
+.intro {
+    padding-top: 30px; /* Add spacing at the top of the section */
+    text-align: center; /* Center-align the text */
+    font-family: Arial, sans-serif; /* Set the font style for this section */
+    font-size: 1.5em; /* Use a larger font size */
+}
+
+img.doc-image {
+    border-radius: 10px; /* Round the corners of the image */
+    border: 3px solid black; /* Add a black border */
+    position: relative; /* Allow positioning relative to the parent */
+    display: block; /* Make the image a block-level element */
+    height: 300px; /* Set the image height to 300px */
+    width: 300px; /* Set the image width to 300px */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.blocks {
+    display: flex; /* Enable Flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-around; /* Distribute blocks evenly with space */
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Add space between blocks */
+    padding: 20px; /* Add padding around the container */
+}
+
+.block-wrapper {
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center child elements horizontally */
+    background-color: #f8f8f8; /* Use a light gray background */
+    padding: 20px; /* Add padding inside the block */
+    border: 1px solid #ddd; /* Add a light border */
+    border-radius: 5px; /* Round the corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    text-align: center; /* Center-align the text inside the block */
+    position: relative; /* Allow absolute positioning for child elements */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transition effects */
+}
+
+.block-wrapper:hover {
+    transform: scale(1.05); /* Slightly enlarge the block on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Deepen the shadow on hover */
+    background-color: #e0e0e0; /* Lighten the background color on hover */
+}
+
+/* Text inside the block should remain static */
+.header-name2, .header-name3 {
+    position: absolute; /* Keep the text fixed within its block */
+    bottom: 10%; /* Position the text near the bottom */
+    left: 50%; /* Center the text horizontally */
+    transform: translateX(-50%); /* Ensure perfect centering */
+    color: white; /* Set text color to white for contrast */
+    font-size: 1.5em; /* Set a moderate font size */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center-align the text */
+    padding: 10px; /* Add padding around the text */
+    background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent black background */
+    border-radius: 5px; /* Round the corners of the background */
+    width: 80%; /* Set the width of the text box */
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+/* Ensure text and images don't shift during hover */
+.block-wrapper img,
+.block-wrapper .header-name2,
+.block-wrapper .header-name3 {
+    transition: none; /* Prevent any transition effects for these elements */
+}
+
+.block-link {
+    flex: 1 1 calc(33.33% - 40px); /* Make each block take up one-third of the row minus gap */
+    box-sizing: border-box; /* Include padding and border in the width */
+    text-decoration: none; /* Remove underline from the links */
+}
+
+.blocks-info {
+    transform: translateY(60%); /* Move the content 60% downward */
+}
+
+.internal-medicine-section {
+    max-width: 1200px; /* Limit the width of the section */
+    margin: 0 auto; /* Center the section on the page */
+    padding: 20px; /* Add padding inside the section */
+}
+
+.section-title {
+    font-size: 1.1em; /* Make the title larger */
+    margin-bottom: 20px; /* Add space below the title */
+}
+
+.intro-text {
+    margin-bottom: 20px; /* Add space below the paragraph */
+    font-size: 1em; /* Set a standard font size */
+    color: #333; /* Use a dark gray for text */
+}
+
+.condition-list {
+    list-style: none; /* Remove default bullet points */
+    padding-left: 20px; /* Add padding to align items */
+    margin-bottom: 20px; /* Add space below the list */
+}
+
+.condition-list li {
+    margin-bottom: 10px; /* Add spacing between list items */
+    font-size: 1em; /* Use standard font size */
+}
+
+.sub-title {
+    font-size: 1.5em; /* Make subtitle slightly smaller than the main title */
+    margin-bottom: 10px; /* Add space below the subtitle */
+    color: #444; /* Use a medium gray for subtitles */
+}
+
+.provider-list {
+    list-style: none; /* Remove default bullet points */
+    padding-left: 20px; /* Align items properly */
+}
+
+.provider-list li {
+    margin-bottom: 10px; /* Add space between list items */
+}
+
+.provider-link {
+    text-decoration: none; /* Remove underline from links */
+    color: blue; /* Use blue for links */
+}
+
+.provider-link:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+
+@media (max-width: 768px) {
+    .block {
+        flex: 1 1 100%; /* Stack blocks vertically on smaller screens */
+    }
+
+    .header-name {
+        font-size: 1.5em; /* Reduce font size for better fit on small screens */
+    }
+}

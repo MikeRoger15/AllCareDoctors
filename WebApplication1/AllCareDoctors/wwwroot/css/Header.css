@@ -1,0 +1,221 @@
+/* 
+======================================
+Header Styles
+======================================
+*/
+
+/* Header Container: Fixed at the top, spans full width, and stays above other content */
+.navbar {
+    position: fixed; /* Keeps navbar fixed at the top of the page */
+    z-index: 1000; /* Ensures the navbar stays above all other elements */
+    width: 100%; /* Makes it span the entire width of the page */
+    display: flex; /* Aligns navbar elements in a row */
+    justify-content: space-between; /* Spaces out the left, center, and right sections */
+    align-items: center; /* Centers items vertically */
+    background-color: gray; /* Sets background color */
+    padding: 10px 20px; /* Adds padding for spacing */
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+}
+
+/* 
+======================================
+Logo Section
+======================================
+*/
+
+/* Logo Container: Holds the logo image and site title */
+.logo-container {
+    display: flex; /* Aligns the logo and text horizontally */
+    align-items: center; /* Centers items vertically */
+}
+
+/* Logo Image: Circular and shadowed for a premium look */
+.logo-container img {
+    height: 80px; /* Sets image height */
+    margin-right: 10px; /* Adds spacing between image and text */
+    border-radius: 50%; /* Makes the image circular */
+    transform: translateY(-5px); /* Slight upward shift for better alignment */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1); /* Adds strong shadow for contrast */
+}
+
+/* Logo Text: Styled for visibility */
+.logo-container a {
+    padding-left: 10px;
+    font-size: 2em; /* Enlarges text */
+    font-weight: bold; /* Makes text bold */
+    color: white; /* White text color */
+    text-shadow: #0a53be 2px 2px 2px; /* Adds blue shadow effect */
+}
+
+/* 
+======================================
+Navigation Links
+======================================
+*/
+
+/* Main navigation links */
+.nav-links {
+    display: flex; /* Aligns links in a row */
+    align-items: center; /* Centers items vertically */
+    gap: 15px; /* Adds spacing between links */
+}
+
+/* Individual navigation links */
+.nav-links a {
+    background-color: #0a53be; /* Sets button background */
+    color: white; /* Sets text color */
+    text-decoration: none; /* Removes underline */
+    padding: 8px 12px; /* Adds spacing inside the button */
+    border-radius: 4px; /* Rounds button corners */
+}
+
+/* Hover effect for navigation links */
+.nav-links a:hover {
+    background-color: #6987b0; /* Changes color on hover */
+}
+
+/* 
+======================================
+Dropdown Menus
+======================================
+*/
+
+/* Dropdown container */
+.dropdown {
+    position: relative; /* Allows absolute positioning of dropdown content */
+}
+
+/* Dropdown button */
+.dropbtn {
+    background-color: #0a53be; /* Button color */
+    color: white; /* Text color */
+    text-shadow: #0a53be 2px 2px 2px; /* Shadow effect */
+    padding: 8px 12px; /* Adds padding */
+    font-size: 16px; /* Increases font size */
+    border: none; /* Removes border */
+    border-radius: 4px; /* Rounds corners */
+    cursor: pointer; /* Pointer cursor for better UX */
+}
+.dropdown a{
+    background-color: #0a53be; /* Button color */
+    color: white; /* Text color */
+    text-shadow: #0a53be 2px 2px 2px; /* Shadow effect */
+    padding: 8px 12px; /* Adds padding */
+    font-size: 16px; /* Increases font size */
+    border: none; /* Removes border */
+    border-radius: 4px; /* Rounds corners */
+    cursor: pointer; /* Pointer cursor for better UX */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none; /* Hides dropdown initially */
+    position: absolute; /* Positions dropdown below button */
+    min-width: 200px; /* Ensures a minimum width */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+    z-index: 1; /* Ensures dropdown appears above other elements */
+}
+
+/* Dropdown links */
+.dropdown-content a {
+    display: block; /* Makes each link take full width */
+    padding: 10px; /* Adds padding */
+    color: white; /* Sets text color */
+    text-shadow: #0a53be 1px 1px 1px; /* Adds shadow effect */
+    text-decoration: none; /* Removes underline */
+}
+
+/* Hover effect for dropdown links */
+.dropdown-content a:hover {
+    background-color: #6987b0; /* Changes background color on hover */
+}
+
+/* Show dropdown when hovered */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change button color on hover */
+.dropdown:hover .dropbtn {
+    background-color: #6987b0;
+}
+
+/* 
+======================================
+Search Bar and Login
+======================================
+*/
+
+/* Container for Search & Login - Aligns them in a row */
+.right-nav {
+    display: flex; /* Aligns items horizontally */
+    align-items: center; /* Ensures vertical alignment */
+    gap: 15px; /* Adds spacing between buttons */
+}
+
+/* Search Container */
+.search-container {
+    position: relative; /* Allows positioning for the dropdown */
+    display: flex; /* Aligns icon and input in a row */
+    /*align-items: center; !* Centers vertically *!*/
+}
+
+/* 
+======================================
+Search Icon & Search Box Styles
+======================================
+*/
+
+/* Search Icon: Button to open the search box */
+.search-icon {
+    width: 120px;
+    height: 40px;
+    background-color: #0056b3; /* Default background color */
+    color: white; /* Sets text color */
+    border: none; /* Removes border */
+    border-radius: 4px; /* Rounds corners */
+    padding: 8px 12px; /* Adds padding for size */
+    cursor: pointer; /* Makes it clickable */
+    font-size: 16px; /* Ensures consistent font size */
+}
+.search-icon:hover {
+    background-color: #007bff; /* Matches the search box background */
+}
+
+/* Hidden Search Box: Displays when the search icon is clicked */
+.search-box {
+    display: none; /* Initially hidden */
+    position: absolute; /* Positions below the search icon */
+    top: 100%; /* Places it directly below the search icon */
+    left: 0; /* Aligns it with the left edge of the icon */
+    background: #007bff; /* Sets background color (same as button hover color) */
+    padding: 10px; /* Adds padding inside the box */
+    border-radius: 4px; /* Rounds corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+    width: 220px; /* Defines a fixed width */
+}
+
+/* Login Button: Styled to match search box theme */
+.login-btn {
+    width: 120px;
+    height: 40px;
+    background-color: #0056b3; /* Default background color */
+    color: white; /* Sets text color */
+    border: none; /* Removes border */
+    border-radius: 4px; /* Rounds corners */
+    padding: 8px 12px; /* Adds padding for size */
+    cursor: pointer; /* Makes it clickable */
+    font-size: 16px; /* Ensures consistent font size */
+}
+
+/* Hover effect: Changes color when hovered */
+.login-btn:hover {
+    background-color: #007bff; /* Matches the search box background */
+}
+
+.arrow-img{
+    padding-left: 3px;
+    position: absolute;
+    height:30px;
+    width: 30px;
+}
