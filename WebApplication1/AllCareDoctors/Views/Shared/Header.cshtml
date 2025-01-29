@@ -1,0 +1,57 @@
+<header>
+    <nav class="navbar">
+        <!-- Left Section -->
+        <div class="logo-container">
+            <img src="images/DocIMG/ACD_logo.jpg" alt="Logo">
+            <a href="/Home/Index.cshtml">AllCare Doctors</a>
+        </div>
+
+        <!-- Navigation Links -->
+        <section class="nav-links">
+            <a asp-controller="Home" asp-action="Index">About Us</a>
+
+            <!-- Dropdown: Schedule Appointment -->
+            <div class="dropdown">
+                <button class="dropbtn" asp-controller="SchApt" asp-action="Schedule Appointment">Schedule Appointment</button>
+            </div>
+
+            <!-- Dropdown: Care & Services -->
+            <div class="dropdown">
+                <button class="dropbtn">Care & Services</button>
+                <div class="dropdown-content">
+                    <div class="dropdown-section">
+                        <a class="section-heading" asp-controller="PrimaryCare" asp-action="">Primary</a>
+                        <a asp-controller="" asp-action="">Internal Medicine</a>
+                        <a asp-controller="Medical" asp-action="FamilyMedicine">Family Medicine</a>
+                    </div>
+                    <div class="dropdown-section">
+                        <a class="section-heading" asp-controller="SpecialtyCare" asp-action="Specialty Care">Primary>Specialty</a>
+                        <a asp-controller="Specialty" asp-action="Cardiology">Cardiology</a>
+                        <a asp-controller="Specialty" asp-action="Dermatology">Dermatology</a>
+                        <a asp-controller="Specialty" asp-action="Nutrition">Nutrition</a>
+                        <a asp-controller="Specialty" asp-action="Podiatry">Podiatry</a>
+                        <a asp-controller="Specialty" asp-action="BehavioralHealth">Behavioral Health</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Right Section -->
+        <div class="right-nav">
+
+            <div class="search-container">
+                <button class="search-icon" onclick="toggleSearch()">
+                    <p class="search-text">Search</p>
+                </button>
+                <div class="search-box">
+                    <input type="text" placeholder="Search..." name="search">
+                    <input type="image" src="images/right-arrow-button.png" alt="Search" class="arrow-img">
+                </div>
+
+            </div>
+            <a href="login.cshtml" class="login-link">
+                <button class="login-btn">Log in</button>
+            </a>
+        </div>
+    </nav>
+</header>
