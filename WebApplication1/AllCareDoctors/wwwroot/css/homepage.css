@@ -17,10 +17,6 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
-}
-
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
   color: var(--bs-secondary-color);
   text-align: end;
@@ -31,9 +27,7 @@ body {
 }
 
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  /* overflow: hidden; */
 }
 
 .container {
@@ -42,11 +36,11 @@ body {
   align-items: center;
   justify-content: space-between;
   min-height: 100vh;
-  overflow: hidden;
 }
 
 .container-lower {
   margin-top: 15px;
+  margin-bottom: 140px;
   border: 6px solid #0046ad;
   border-radius: 10px;
   position: relative;
