@@ -2,7 +2,7 @@
     <nav class="navbar">
         <!-- Left Section -->
         <div class="logo-container">
-            <img src="images/DocIMG/ACD_logo.jpg" alt="Logo">
+            <img src="~/images/DocIMG/ACD_logo.jpg" alt="Logo" asp-append-version="true">
             <a href="/Home/Index.cshtml">AllCare Doctors</a>
         </div>
 
@@ -20,9 +20,9 @@
                 <button class="dropbtn">Care & Services</button>
                 <div class="dropdown-content">
                     <div class="dropdown-section">
-                        <a class="section-heading" asp-controller="PrimaryCare" asp-action="">Primary</a>
-                        <a asp-controller="" asp-action="">Internal Medicine</a>
-                        <a asp-controller="Medical" asp-action="FamilyMedicine">Family Medicine</a>
+                        <a class="section-heading" asp-controller="PrimaryCare" asp-action="PrimaryCare">Primary</a>
+                        <a asp-controller="PrimaryCare" asp-action="InternalMedicine">Internal Medicine</a>
+                        <a asp-controller="PrimaryCare" asp-action="FamilyMedicine">Family Medicine</a>
                     </div>
                     <div class="dropdown-section">
                         <a class="section-heading" asp-controller="SpecialtyCare" asp-action="Specialty Care">Primary>Specialty</a>
@@ -45,7 +45,7 @@
                 </button>
                 <div class="search-box">
                     <input type="text" placeholder="Search..." name="search">
-                    <input type="image" src="images/right-arrow-button.png" alt="Search" class="arrow-img">
+                    <input type="image" src="~/images/right-arrow-button.png" alt="Search" class="arrow-img" asp-append-version="true">
                 </div>
 
             </div>
