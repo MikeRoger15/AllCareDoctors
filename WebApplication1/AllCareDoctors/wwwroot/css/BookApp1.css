@@ -1,0 +1,75 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+h2 {
+    text-align: center;
+}
+.steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: gray;
+    position: relative;
+}
+.steps strong {
+    color: #0044cc;
+}
+.steps span {
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+.steps span::before,
+.steps span::after {
+    content: '';
+    display: none;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+p {
+    margin-top: 20px;
+}
+.policy {
+    margin-bottom: 20px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.cancel-btn, .next-btn {
+    width: 40%;
+    cursor: pointer;
+    border: none;
+    padding: 8px;
+}
+.cancel-btn {
+    background: #ccc;
+}
+.next-btn {
+    background: #0044cc;
+    color: white;
+}
+    
