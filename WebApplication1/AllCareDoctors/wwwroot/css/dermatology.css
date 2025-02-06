@@ -1,0 +1,73 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro, .about, .providers {
+    margin-bottom: 40px;
+}
+
+.providers .provider {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.info {
+    font-size: 1.1rem;
+    display: flex;
+}
+
+.providers .info h3 {
+    margin: 0;
+    font-size: 1.3rem;
+   
+}
+
+.providers .info p {
+    margin: 5px 0;
+}
+
+.providers .appointment {
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+.providers .appointment a {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.providers .appointment a:hover {
+    background-color: #575757;
+}

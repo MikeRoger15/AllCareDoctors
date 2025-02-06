@@ -1,0 +1,89 @@
+﻿
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="~/css/calendar.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+</head>
+<body>
+<h1 style="text-align: center; font-size: 30px; color: purple;">Choose a date</h1>
+<br>
+
+
+<div class="container">
+
+
+    <div class="calendar">
+
+        <div class="month">
+            <div id="prev"><i class="fas fa-angle-left"></i></div>
+            <div id="month-year" style="font-size: 18px;">Month Year
+
+            </div>
+            <div class="selected-date" id="selected-date">
+
+            </div>
+            <div id="next"><i class="fas fa-chevron-right"></i></div>
+
+        </div>
+
+        <div class="weekdays">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thurs</div>
+            <div>Fri</div>
+            <div>Sat</div>
+        </div>
+
+        <div class="calendar-grid" id="calendar-grid">
+            <!-- Days will be dynamically populated -->
+        </div>
+
+
+    </div>
+</div>
+
+<br>
+
+<div class="content">
+    <h1>Pick a Time</h1>
+    <br>
+
+    <div class="time-slots">
+        <button class="time-btn" onclick="selectTime('08:00 AM')">08:00 AM</button>
+        <button class="time-btn" onclick="selectTime('09:00 AM')">09:00 AM</button>
+        <button class="time-btn" onclick="selectTime('10:00 AM')">10:00 AM</button>
+        <button class="time-btn" onclick="selectTime('11:00 AM')">11:00 AM</button>
+        <button class="time-btn" onclick="selectTime('12:00 PM')">12:00 PM</button>
+        <button class="time-btn" onclick="selectTime('01:00 PM')">01:00 PM</button>
+        <button class="time-btn" onclick="selectTime('02:00 PM')">02:00 PM</button>
+        <button class="time-btn" onclick="selectTime('03:00 PM')">03:00 PM</button>
+        <button class="time-btn" onclick="selectTime('04:00 PM')">04:00 PM</button>
+        <button class="time-btn" onclick="selectTime('05:00 PM')">05:00 PM</button>
+    </div>
+
+    <p>Your selected time is: <span id="selectedTime">None</span></p>
+</div>
+
+<br>
+<div class="btn">
+    <button>Back</button>
+    <button>Continue</button>
+</div>
+
+<script src="~/js/script.js"></script>
+</body>
+</html>
