@@ -1,0 +1,65 @@
+@model List<Tuple<string, string>>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <title>Internal Medicine</title>
+    <link rel="stylesheet" href="~/css/CareAndServices.css"/>
+</head>
+
+<body>
+
+<section class="image-container">
+    <img class="primary-care-top" src="~/images/DocIMG/internalmedicine.jpg" alt="">
+    <h1 class="header-name">Internal Medicine</h1>
+</section>
+<section>
+    <p class="intro">
+        Maintaining your good health begins with quality primary care, <br>
+        regardless of your age, gender, background, or health status. <br>
+        AllCareDoctors (ACD) are equipped to care for the “whole you” <br>
+        and help you make decisions, keeping your entire <br/>
+        health picture in mind.
+    </p>
+</section>
+
+<section class="internal-medicine-section">
+    <p class="section-title">Internal medicine providers are primary care providers for adult patients.</p>
+
+    <p class="intro-text">
+        At AllCare Doctors Physicians, our board-certified internal medicine providers offer regular check-ups,
+        preventive care, and can oversee treatment from multiple specialists. Internal medicine providers are trained
+        to diagnose and treat a range of conditions, including:
+    </p>
+
+    <ul class="condition-list">
+        <li>- Diabetes</li>
+        <li>- Digestive issues</li>
+        <li>- Infections</li>
+        <li>- Heart disease</li>
+        <li>- Hypertension (high blood pressure)</li>
+        <li>- Joint and muscle pain</li>
+        <li>- Obesity</li>
+        <li> - Respiratory conditions</li>
+    </ul>
+
+    <p class="intro-text">
+        Many internists undergo additional education and training in order to specialize in areas such as cardiology,
+        endocrinology, infectious diseases, and other fields of medicine. Patients should see an internal medicine provider
+        to manage their health, receive regular tests and screenings, and learn preventive care methods.
+    </p>
+
+    <h2 class="sub-title">Hear from our providers:</h2>
+
+    <ul class="provider-list">
+        <li><a asp-controller="PrimaryCare" asp-action="InternalDoc1" class="provider-link">Dr. Navarra Rodriguez</a></li>
+        <li><a asp-controller="PrimaryCare" asp-action="InternalDoc2" class="provider-link">Dr. Julie Patel-Pannullo</a></li>
+    </ul>
+</section>
+
+</body>
+</html>

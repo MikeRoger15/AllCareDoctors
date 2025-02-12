@@ -1,0 +1,50 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <title>Primary Care</title>
+    <link rel="stylesheet" href="~/css/CareAndServices.css"/>
+</head>
+
+<body>
+
+<section class="image-container">
+    <img class="primary-care-top" src="~/images/primary-care-top.png" alt="">
+    <h1 class="header-name">Primary Care</h1>
+</section>
+<section>
+    <p class="intro">
+        Maintaining your good health begins with quality primary care, <br>
+        regardless of your age, gender, background, or health status. <br>
+        AllCareDoctors (ACD) are equipped to care for the “whole you” <br>
+        and help you make decisions, keeping your entire <br/>
+        health picture in mind.
+    </p>
+</section>
+
+
+<section class="blocks" >
+    <a class="block-link text-dark" asp-controller="PrimaryCare" asp-action="InternalMedicine" method="get">
+
+        <div class="block-wrapper">
+            <img class="doc-image" src="~/images/DocIMG/doc1.jpg" alt="">
+            <h1 class="header-name2">Internal Medicine</h1>
+            <h3 class="blocks-info">Primary care for adult patients.</h3>
+        </div>
+    </a>
+    
+    <a class="block-link text-dark" asp-controller="PrimaryCare" asp-action="FamilyMedicine" method="get">
+        <div class="block-wrapper">
+            <img class="doc-image" src="~/images/DocIMG/doc2.jpg" alt="">
+            <h1 class="header-name3">Family Medicine</h1>
+            <h3 class="blocks-info">Care for patients of all ages.</h3>
+        </div>
+    </a>
+  
+</section>
+</body>
+</html>

@@ -1,18 +1,17 @@
-/* Footer Container */
+/* Ensure footer stays at the bottom */
+
 .footer-container {
-    position: fixed; /* Stays at the bottom */
-    bottom: 0;
-    z-index: 1000;
-    width: 100%; /* Full width */
-    display: flex; /* Aligns sections horizontally */
-    justify-content: space-around; /* Evenly spaces sections */
-    align-items: center; /* Centers items */
-    background-color: gray; /* Matches header background */
-    padding: 10px 20px; /* Consistent padding */
-    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.2); /* Shadow on top */
+    width: 100%;
+    background-color: gray;
+    padding: 10px 20px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative; /* Ensures normal flow */
 }
 
-/* Footer Section Styles */
+/* Footer Section */
 .footer-section {
     text-align: center;
     flex: 1;

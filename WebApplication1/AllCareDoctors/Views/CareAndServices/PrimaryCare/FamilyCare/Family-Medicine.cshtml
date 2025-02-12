@@ -1,0 +1,61 @@
+@model List<Tuple<string, string>>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <title>Family Medicine</title>
+    <link rel="stylesheet" href="~/css/CareAndServices.css"/>
+</head>
+
+<body>
+
+<section class="image-container">
+    <img class="primary-care-top" src="~/images/DocIMG/familymedicine.jpg" alt="">
+    <h1 class="header-name">Family Medicine</h1>
+</section>
+<section>
+    <p class="intro">
+        Family medicine is a branch of primary care medicine designed to treat men,
+        <br/>women, and children of all ages. <br/> <br/>
+        Family practice differs from internal medicine by treating a wider <br/>
+        range of patients, as family medicine providers <br/>
+        receive training in several medical specialties to diagnose and treat many conditions. <br/><br/>
+    </p>
+</section>
+
+<section class="internal-medicine-section">
+    <p class="section-title">Family medicine providers are primary care providers for all patients.</p>
+
+    <p class="intro-text">
+        At AllCare Doctors Physicians, our board-certified family medicine providers offer regular check-ups,
+        preventive care, and can oversee treatment from multiple specialists. Family medicine providers are trained
+        to diagnose and treat a range of conditions, including:
+    </p>
+
+    <ul class="condition-list">
+        <li>- Preventive care</li>
+        <li>- Vaccinations</li>
+        <li>- Immunization and screening tests</li>
+        <li>- Healthy lifestyle counseling</li>
+    </ul>
+
+    <p class="intro-text">
+        Many family medicine providers undergo additional education and training in order to specialize in areas such as
+        pediatrics, geriatrics, sports medicine, and other fields. Patients should see a family medicine provider
+        to manage their health, receive regular tests and screenings, and learn preventive care methods.
+    </p>
+
+    <h2 class="sub-title">Hear from our providers:</h2>
+
+    <ul class="provider-list">
+        <li><a asp-controller="PrimaryCare" asp-action="FamilyDoc1">Dr. Emily Carter, M.D.</a></li>
+        <li><a asp-controller="PrimaryCare" asp-action="FamilyDoc2">Dr. Marcus Bennett, D.O.</a></li>
+    </ul>
+</section>
+
+</body>
+</html>
