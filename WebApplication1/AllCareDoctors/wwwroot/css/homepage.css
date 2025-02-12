@@ -1,66 +1,76 @@
-html {
+/* Global Base Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
   font-size: 14px;
+  font-family: Arial, sans-serif;
 }
 
+/* Increase base font-size for larger screens */
 @media (min-width: 768px) {
   html {
     font-size: 16px;
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+/* Main content wrapper (ensures content starts below the fixed header)
+   Update padding-top to match your header’s fixed height (e.g., 120px) */
+.content-wrapper {
+  flex: 1;
+  padding-top: 30px; /* Adjust if your header height changes */
+  padding-bottom: 0;
 }
 
-html {
+/* ============================= */
+/* Hero Section Styles */
+/* ============================= */
+
+/* Hero section container uses full viewport height */
+.hero-section .container {
   position: relative;
-  min-height: 100%;
-}
-
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
-}
-
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
-}
-
-body {
-  font-family: Arial, sans-serif;
-}
-
-.container {
-  position: relative;
+  width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  min-height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
 }
 
-.container-lower {
-  margin-top: 15px;
-  margin-bottom: 140px;
-  border: 6px solid #0046ad;
-  border-radius: 10px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 34vh;
+/* Big image fills the hero container */
+.bigimage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
+.bigimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-
+/* Content overlay on the hero image */
 .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #fff;
+  text-align: center;
+  background: rgba(0, 70, 173, 0.85); /* Semi-transparent overlay */
   padding: 2rem;
-  max-width: 50%;
-  background: #0046ad;
   border-radius: 10px;
   z-index: 2;
-  position: relative;
+  max-width: 60%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -79,34 +89,60 @@ body {
   border-radius: 0.5rem;
 }
 
-.bigimage {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  overflow: hidden;
-  
+/* ============================= */
+/* Doctor Profiles Section */
+/* ============================= */
+
+/* Container for the doctor profiles – this rule applies to the lower container */
+.doctor-profiles .container-lower {
+  margin-top: 20px;
+  margin-bottom: 200px; /* Extra bottom margin prevents footer overlap */
+  border: 6px solid #0046ad;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  overflow: visible;
+  padding: 20px;
 }
 
-.bigimage img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 1;
-}
-
+/* Style for each doctor profile box */
 .text-box {
-  border: 2px solid #ccc; /* Border around the text box */
-  padding: 10px; /* Space inside the box */
-  margin: 20px; /* Space outside the box */
-  border-radius: 5px; /* Rounded corners */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  max-width: 200px; /* Maximum width of the text box */
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 200px;
 }
 
+/* Images in the doctor profiles */
 .image {
-  width: 100%; /* Image takes the full width of the text box */
-  height: 50%;
-} 
+  width: 100%;
+  height: auto;
+}
+
+/* ============================= */
+/* Utility Styles */
+/* ============================= */
+
+/* Focus and active styles for buttons and forms */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+/* Form Floating Placeholder adjustments */
+.form-floating > .form-control-plaintext::placeholder,
+.form-floating > .form-control::placeholder {
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder,
+.form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}

@@ -1,0 +1,68 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cardiology Department at AllCare Doctors - Expert care for heart health.">
+    <title>Cardiology Department - AllCare Doctors</title>
+    <link rel="stylesheet" href="~/css/StandardSpecialty.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Cardiology</h1>
+</header>
+
+<div class="container">
+    <section id="intro" class="intro">
+        <h2>Welcome to the Cardiology Department</h2>
+        <p>At AllCare Doctors, we provide expert diagnosis and treatment for a wide range of heart conditions. Our dedicated team of cardiologists and healthcare professionals are here to ensure your heart health is in good hands. We are committed to delivering compassionate care and advanced medical treatments to our patients.</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About the Department</h2>
+        <p>Our cardiology team consists of highly experienced physicians, surgeons, and specialists who are dedicated to providing the highest standard of care. We use the latest technologies and treatment protocols to offer personalized care tailored to each patient's needs.</p>
+        <p>Whether you're here for a routine check-up or a specialized heart procedure, we ensure that your experience is as comfortable and effective as possible. Our cardiologists are leaders in their field, and we pride ourselves on having one of the best heart care teams in the region.</p>
+    </section>
+
+    <section id="providers" class="providers">
+        <h2>Our Providers</h2>
+
+        <!-- Dr. Samantha Rodriguez (Updated) -->
+        <div class="provider">
+            <img src="~/images/dr.sam.jpg" alt="Dr. Samantha Rodriguez">
+            <div class="info">
+                <h3>Dr. Samantha Rodriguez</h3>
+                <p><strong>Specialty:</strong> Interventional Cardiology</p>
+                <p><strong>Experience:</strong> 15 years of experience in advanced cardiology procedures.</p>
+            </div>
+            <div class="appointment">
+                <a asp-controller="SpecialtyCare" asp-action="CardDoc1">View Doctor</a>
+            </div>
+        </div>
+
+        <!-- Dr. Randall Harrison (Updated) -->
+        <div class="provider">
+            <img src="~/images/randall.jpeg" alt="Dr. Randall Harrison">
+            <div class="info">
+                <h3>Dr. Randall Harrison</h3>
+                <p><strong>Specialty:</strong> Cardiovascular Surgery</p>
+                <p><strong>Experience:</strong> Expert in performing heart surgeries and valve repairs.</p>
+            </div>
+            <div class="appointment">
+                <a asp-controller="SpecialtyCare" asp-action="CardDoc2">View Doctor</a>
+            </div>
+        </div>
+
+    </section>
+</div>
+
+</body>
+
+</html>
