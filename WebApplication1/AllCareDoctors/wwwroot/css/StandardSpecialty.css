@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro, .about, .providers {
+    margin-bottom: 40px;
+}
+
+.providers .provider {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.providers img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.providers .info {
+    font-size: 1.1rem;
+}
+
+.providers .info h3 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.providers .info p {
+    margin: 5px 0;
+}
+
+.providers .view-doctor {
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+.providers .view-doctor a {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.providers .view-doctor a:hover {
+    background-color: #575757;
+}

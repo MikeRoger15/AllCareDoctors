@@ -1,0 +1,78 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Podiatry Services at AllCare Doctors - Expert foot and ankle care.">
+    <title>Podiatry - AllCare Doctors</title>
+    <link rel="stylesheet" href="~/css/StandardSpecialty.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Podiatry</h1>
+</header>
+
+<div class="container">
+    <section id="intro" class="intro">
+        <h2>Welcome to the Podiatry Department</h2>
+        <p>Podiatry is a medical specialty dedicated to diagnosing, treating, and managing conditions in the feet, ankles, and lower legs. Our podiatrists provide expert care for a variety of conditions to help patients maintain mobility and comfort.</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Podiatry</h2>
+        <p>At AllCare Doctors, our board-certified podiatrists specialize in the prevention, diagnosis, and treatment of foot disorders. Whether you're dealing with chronic pain, an injury, or a diabetic-related foot condition, our team is here to help.</p>
+        <p>Our specialists offer treatment for various podiatric conditions, including:</p>
+        <ul class="condition-list">
+            <li> Arthritis of the foot and ankle</li>
+            <li> Bunions</li>
+            <li> Corns and calluses</li>
+            <li> Flat feet</li>
+            <li> Diabetic foot complications</li>
+            <li> Heel pain</li>
+            <li> Ingrown toenails</li>
+            <li> Sports-related foot injuries</li>
+        </ul>
+    </section>
+
+    <section id="providers" class="providers">
+        <h2>Our Providers</h2>
+
+        <!-- Dr. Amanpreet Kaur -->
+        <div class="provider">
+            <img src="~/images/DocIMG/PDoc1.jpg" alt="Dr. Amanpreet Kaur">
+            <div class="info">
+                <h3>Dr. Amanpreet Kaur</h3>
+                <p><strong>Specialty:</strong> Foot and Ankle Surgery</p>
+                <p><strong>Experience:</strong> 10+ years treating foot disorders and injuries.</p>
+                <p><strong>Location:</strong> Hicksville, NY</p>
+            </div>
+            <div class="appointment">
+                <a asp-controller="SpecialtyCare" asp-action="PodDoc1">View Doctor</a>
+            </div>
+        </div>
+
+        <!-- Dr. Sharon Singh -->
+        <div class="provider">
+            <img src="~/images/DocIMG/PDoc2.jpg" alt="Dr. Sharon Singh">
+            <div class="info">
+                <h3>Dr. Sharon Singh</h3>
+                <p><strong>Specialty:</strong> Diabetic Foot Care & Orthotics</p>
+                <p><strong>Experience:</strong> Expert in treating diabetic foot complications.</p>
+                <p><strong>Location:</strong> Northport, NY</p>
+            </div>
+            <div class="appointment">
+                <a asp-controller="SpecialtyCare" asp-action="PodDoc2">View Doctor</a>
+            </div>
+        </div>
+
+    </section>
+</div>
+
+</body>
+</html>

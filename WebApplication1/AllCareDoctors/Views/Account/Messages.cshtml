@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="~/css/messages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> <!-- Added FontAwesome -->
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="chat-container">
+            <section class="discussions">
+                <div class="discussion search">
+                    <div class="searchbar">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                </div>
+
+                <div class="discussion message-active">
+                    <div class="desc-contact">
+                        <p class="name">Dr. Mike Example</p>
+                        <p class="message">Have you picked up the prescription?</p>
+                    </div>
+                </div>
+
+                <!-- Empty discussion placeholders -->
+                <div class="discussion"><div class="desc-contact"></div></div>
+                <div class="discussion"><div class="desc-contact"></div></div>
+                <div class="discussion"><div class="desc-contact"></div></div>
+                <div class="discussion"><div class="desc-contact"></div></div>
+                <div class="discussion"><div class="desc-contact"></div></div>
+                <div class="discussion"><div class="desc-contact"></div></div>
+
+            </section>
+
+            <section class="chat">
+                <div class="header-chat">
+                    <i class="icon fa fa-user-o" aria-hidden="true"></i>
+                    <p class="name">Dr. Mike Example</p>
+                    <i class="icon clickable fa fa-ellipsis-h right" aria-hidden="true"></i>
+                </div>
+
+                <div class="messages-chat">
+                    <div class="message">
+                        <p class="text">Have you picked up the prescription?</p>
+                    </div>
+                    <div class="message">
+                        <p class="text">I have sent it to your Pharmacy</p>
+                    </div>
+
+                    <div class="message text-only">
+                        <div class="response">
+                            <p class="text">Hello Dr. Mike! Yes, I have! Thank you for the reminder.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-chat">
+                    <i class="icon fa fa-smile-o clickable" style="font-size:25pt;" aria-hidden="true"></i>
+                    <input type="text" class="write-message" placeholder="Type your message here">
+                    <i class="icon send fa fa-paper-plane-o clickable" aria-hidden="true"></i>
+                </div>
+
+            </section>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

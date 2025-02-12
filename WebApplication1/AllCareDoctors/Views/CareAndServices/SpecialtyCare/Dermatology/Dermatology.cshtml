@@ -1,0 +1,64 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dermatology Department at AllCare Doctors - Expert care for skin health.">
+    <title>Dermatology Department - AllCare Doctors</title>
+    <link rel="stylesheet" href="~/css/StandardSpecialty.css">
+</head>
+<body>
+
+<header>
+    <h1>Dermatology</h1>
+</header>
+
+<div class="container">
+    <section id="intro" class="intro">
+        <h2>Welcome to the Dermatology Department</h2>
+        <p>At AllCare Doctors, we offer expert care for a wide range of skin conditions, from acne and eczema to more specialized treatments for aging skin and skin cancer. Our team of experienced dermatologists uses the latest technology and research to provide personalized treatment plans tailored to your needs.</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About the Department</h2>
+        <p>Our team of highly trained dermatologists provides both medical and cosmetic treatments, utilizing the latest technology and research to offer personalized care for each patient. From managing chronic skin conditions like eczema, acne, and psoriasis, to advanced treatments for skin cancer, we focus on improving both the health and appearance of your skin. We are here to help you feel confident and comfortable in your skin, with a dedicated approach to your unique needs.</p>
+    </section>
+
+    <section id="providers" class="providers">
+        <h2>Our Providers</h2>
+        
+        <!-- Dr. Carina Rizzo (Updated) -->
+        <div class="provider">
+            <img src="~/images/DocIMG/dr.carina.jpg" alt="Dr. Carina Rizzo">
+            <div class="info">
+                <h3>Dr. Carina Rizzo</h3>
+                <p><strong>Specialty:</strong> General Dermatology</p>
+                <p><strong>Experience:</strong> 10 years of experience in diagnosing and treating skin diseases.</p>
+            </div>
+            <div class="appointment">
+                <a asp-controller="SpecialtyCare" asp-action="DermDoc1">View Doctor</a>
+            </div>
+        </div>
+
+        <!-- Dr. Selina Siegel (Updated) -->
+        <div class="provider">
+            <img src="~/images/DocIMG/dr.selina.jpg" alt="Dr. Selina Siegel">
+            <div class="info">
+                <h3>Dr. Selina Siegel</h3>
+                <p><strong>Specialty:</strong> Cosmetic Dermatology</p>
+                <p><strong>Experience:</strong> Expert in improving the aesthetic look of the skin, hair, and nails.</p>
+            </div>
+            <div class="appointment">
+                <a asp-controller="SpecialtyCare" asp-action="DermDoc2">View Doctor</a>
+            </div>
+        </div>
+        
+    </section>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Behavioral Health Department at AllCare Doctors - Expert care for heart health.">
+    <title>Behavioral Health Department - AllCare Doctors</title>
+    <link rel="stylesheet" href="~/css/StandardSpecialty.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Behavioral Health</h1>
+</header>
+
+<div class="container">
+    <section id="intro" class="intro">
+        <h2>Welcome to the Behavioral Health Department</h2>
+        <p>
+            At AllCare Doctors, we are committed to providing expert
+            diagnosis and treatment for a wide range of mental health conditions.
+            Our dedicated team of psychiatrists and behavioral health specialists
+            are here to support your emotional well-being through personalized, compassionate care.
+        </p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About the Department</h2>
+        <p>
+            Our behavioral health team consists of experienced psychiatrists,
+            therapists, and mental health professionals dedicated to providing
+            holistic and patient-centered care. We specialize in treating anxiety,
+            depression, PTSD, mood disorders, and other psychological conditions through
+            psychotherapy, medication management, and evidence-based interventions.
+        </p>
+
+        <p>
+            Whether you are seeking help for stress management, therapy for a mental
+            health condition, or psychiatric evaluations, we are here to help. Our
+            goal is to provide a safe and supportive environment where patients can
+            develop coping strategies, resilience, and a path toward mental wellness.
+        </p>
+    </section>
+
+    <section id="providers" class="providers">
+        <h2>Our Providers</h2>
+
+        <!-- Dr. Jane Smith (Updated) -->
+        <div class="provider">
+            <img src="~/images/DocIMG/jane_smith.jpg" alt="Dr. Jane Smith - Behavioral Health Specialist">
+            <div class="info">
+                <h3>Dr. Jane Smith</h3>
+                <p><strong>Specialty:</strong> Behavioral Health & Psychiatry</p>
+                <p><strong>Experience:</strong> Over 20 years of experience helping individuals with anxiety, depression, and trauma-related disorders.</p>
+            </div>
+            <div class="view-doctor">
+                <a asp-controller="SpecialtyCare" asp-action="BehDoc1">View Doctor</a>
+            </div>
+        </div>
+
+        <!-- Dr. John Martinez (Updated) -->
+        <div class="provider">
+            <img src="~/images/DocIMG/john_martinez.jpg" alt="Dr. John Martinez - Psychiatric Medicine Specialist">
+            <div class="info">
+                <h3>Dr. John Martinez</h3>
+                <p><strong>Specialty:</strong> Psychiatric Medicine & Mental Health Therapy</p>
+                <p><strong>Experience:</strong> Specializes in psychotherapy, medication management, and holistic mental wellness strategies.</p>
+            </div>
+            <div class="view-doctor">
+                <a asp-controller="SpecialtyCare" asp-action="BehDoc2">View Doctor</a>
+            </div>
+        </div>
+    </section>
+</div>
+</body>

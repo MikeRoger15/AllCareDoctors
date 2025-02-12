@@ -1,0 +1,18 @@
+/* Global Layout Styles */
+
+/* Make sure html and body take the full viewport height and use a column flex layout */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* The main-wrapper will push the footer to the bottom and add a top padding equal to the header's height */
+.main-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px; /* Adjust this value if your header height changes */
+}
