@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 16px;
+}
+
+.tab-button.active {
+    background-color: #0044cc;
+    color: white;
+}
+
+.tab-content {
+    display: none;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.form-container {
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.2);
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 15px;
+}
+
+.patient-details p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.patient-details strong {
+    color: #333;
+}
+
+#submitBtn {
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 20px;
+}
+
+#submitBtn:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+.method-btn.active {
+    background-color: #0044cc;
+    color: white;
+}
+
+.check-details {
+    margin-top: 15px;
+}

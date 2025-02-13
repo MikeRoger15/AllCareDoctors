@@ -53,19 +53,24 @@ header h1 {
     margin: 5px 0;
 }
 
-.providers .view-doctor {
+/* Updated CSS for the "View Doctor" button */
+.providers .appointment {
     margin-top: 10px;
     margin-left: auto;
 }
 
-.providers .view-doctor a {
+.providers .appointment a {
     text-decoration: none;
     color: white;
-    background-color: #333;
+    background-color: #0a53be;
     padding: 10px 20px;
     border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.providers .view-doctor a:hover {
+.providers .appointment a:hover {
     background-color: #575757;
 }

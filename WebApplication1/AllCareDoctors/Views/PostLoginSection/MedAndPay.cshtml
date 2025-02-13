@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Record & Payment</title>
+    <link rel="stylesheet" href=".css">
+    <link rel="script" href="~/js/script.js">
+</head>
+<body>
+<h1>Medical Record & Payment</h1>
+
+<div class="tabs">
+    <button class="tab-button active" data-tab="medical-record">Medical Record</button>
+    <button class="tab-button" data-tab="payment">Payment</button>
+</div>
+
+<div class="main-container">
+    <div id="medical-record" class="tab-content active">
+        <div class="form-container">
+            <div class="medical-record">
+                <h2>Patient Information</h2>
+                <div class="patient-details">
+                    <p><strong>Full Name:</strong> <span id="patient-name"></span></p>
+                    <p><strong>Date of Birth:</strong> <span id="patient-dob"></span></p>
+                    <p><strong>Medical History:</strong> <span id="medical-history"></span></p>
+                    <p><strong>Current Medications:</strong> <span id="current-medications"></span></p>
+                    <p><strong>Allergies:</strong> <span id="allergies"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="payment" class="tab-content">
+        <div class="form-container">
+            <div class="payment-section">
+                <h2>Payment Information</h2>
+                <div class="payment-methods">
+                    <div class="form-group">
+                        <label>Total Charges:</label>
+                        <div class="charge-amount">$250.00</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Payment Method:</label>
+                        <div class="method-buttons">
+                            <button type="button" class="method-btn active" data-method="cash">Cash</button>
+                            <button type="button" class="method-btn" data-method="check">Check</button>
+                        </div>
+                    </div>
+
+                    <div class="check-details" id="checkDetails" style="display: none;">
+                        <div class="form-group">
+                            <label>Check Number:</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Bank Name:</label>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="payment-summary">
+                        <p>Selected Method: <span id="selectedMethod">Cash</span></p>
+                        <p>Amount Due: <span class="charge-amount">$250.00</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="button-container">
+    <button id="submitBtn">Submit Payment</button>
+</div>
+
+</body>
+</html>

@@ -1,38 +1,16 @@
-﻿/* global.css */
-
-/* General Reset */
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+/* Make sure html and body take the full viewport height and use a column flex layout */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-/* Global Typography and Fonts */
-body {
-  font-family: Arial, sans-serif; /* Sets the default font */
-}
-
-/* Links */
-a {
-  color: #0077cc; /* Default color for links */
-  text-decoration: none; /* Removes underline from links */
-}
-
-a:hover {
-  text-decoration: underline; /* Adds underline on hover */
-}
-
-/* Utility Classes */
-.border-top {
-  border-top: 1px solid #e5e5e5; /* Adds a light border at the top */
-}
-
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5; /* Adds a light border at the bottom */
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); /* Adds a subtle shadow */
+/* The main-wrapper will push the footer to the bottom and add a top padding equal to the header's height */
+.main-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px; /* Adjust this value if your header height changes */
 }
